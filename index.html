@@ -1,10 +1,54 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
+<html>
 
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>George Tirim</title>
+  <link rel="stylesheet" href="node_modules/uikit/dist/css/uikit.min.css">
+  <script src="uikit/dist/js/uikit-icons.min.js"></script>
+
+</head>
+
+<body>
+  <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar">
+
+    <nav class="uk-navbar-container " uk-navbar="dropbar: true;" style="position: relative; z-index: 980;">
+      <div class="uk-navbar-center ">
+        <div class="uk-logo">
+          <img src="assets\images\WebsiteLogo.png" alt="logo">
+        </div>
+      </div>
+      <div class="uk-navbar-right ">
+        <ul class="uk-navbar-nav ">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="vitae.html">Vitae</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <div class="  uk-background-blend-overlay uk-background-muted uk-background-cover" data-src="assets\images\bg.jpg" uk-img>
+    <div class="uk-container uk-padding-large">
+      <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+        <img data-src="/assets/images/portrait.jpg" alt="" uk-img>
+        <div>
+          <div class="uk-card-body">
+            <h1 class="uk-text-bold uk-padding-small">Hello there!</h1>
+            <h2 class="uk-padding-small">My name is George Gabriel Tirim and this is my website.</h2>
+            <p>You can learn more about me by navigating this website.</p>
+            <p>You can learn about my life in the <a href="/vitae.html"> Vitae </a> section.</p>
+            <p>You can learn more about the projects I have worked on in the <a href="/projects.html"> Projects </a> section.</p>
+            <p>I can also be contacted in the <a href="/contact.html"> Contact </a> section. Feel free to contact me for more information about me, my work or even to ask me how my day is going! :)</p>
+              <p>  </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="dist/bundle.js"></script>
+</body>
+
 </html>

@@ -1,0 +1,14 @@
+{
+  "name": "SitePortofoliu",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "George Tirim <skillet_luffy99@yahoo.com>",
+  "license": "MIT",
+  "dependencies": {
+    "uikit": "^3.5.6"
+  },
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}

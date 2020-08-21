@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>George Tirim</title>
+  <link rel="stylesheet" href="node_modules/uikit/dist/css/uikit.min.css">
+  <script src="uikit/dist/js/uikit-icons.min.js"></script>
+
+</head>
+
+<body>
+  <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar">
+
+    <nav class="uk-navbar-container " uk-navbar="dropbar: true;" style="position: relative; z-index: 980;">
+      <div class="uk-navbar-center ">
+        <div class="uk-logo">
+          <img src="assets\images\WebsiteLogo.png" alt="logo">
+        </div>
+      </div>
+      <div class="uk-navbar-right ">
+        <ul class="uk-navbar-nav ">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="vitae.html">Vitae</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <div class="  uk-background-blend-overlay uk-background-muted uk-background-cover" data-src="assets\images\bg.jpg" uk-img>
+    <div class="uk-container uk-padding-large">
+      <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+        <div>
+          <div class="uk-card-header">
+          <div >
+            <img width="500" height="500" alt="" uk-img="data-src:assets\images\MoonWitch.png" uk-svg>
+                <h1 class="uk-card-title">Moon Witch</h1>
+            </div>
+          </div>
+          <div class="uk-card-body">
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <script src="dist/bundle.js"></script>
+</body>
+
+</html>
